@@ -1,37 +1,33 @@
-## Welcome to GitHub Pages
+## Overview of Intel® Distribution of OpenVINO™ Toolkit
 
-You can use the [editor on GitHub](https://github.com/snowballhub/OpenVino/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+AI inference applies capabilities learned after training a neural network to yield results. The [Intel® Distribution of OpenVINO™ toolkit](https://software.intel.com/content/www/us/en/develop/tools/openvino-toolkit.html) enables you to optimize, tune, and run comprehensive AI inference using the included model optimizer and runtime and development tools.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+![Image of OpenVino](https://software.intel.com/content/dam/develop/public/us/en/images/diagrams-infographics/diagram-v1openvino-homepage-16x9.png)
 
-### Markdown
+## Discover the Capabilities
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### High Performance, Deep Learning
+Convert and optimize models to achieve high performance for deep-learning inference applications.
 
-```markdown
-Syntax highlighted code block
+### Streamlined Development
+Facilitate a smoother development process using the included inference tools for low-precision optimization and media processing, computer vision libraries, and preoptimized kernels.
 
-# Header 1
-## Header 2
-### Header 3
+### Write Once, Deploy Anywhere
+Deploy your same application across combinations of host processors, accelerators, and environments, including CPUs, GPUs, VPUs, FPGAs, on-premise and on-device, and in the browser or in the cloud.
 
-- Bulleted
-- List
+## How It Works
 
-1. Numbered
-2. List
+### 1. Build
+Use the [Open Model Zoo](https://github.com/openvinotoolkit/open_model_zoo) to find open-source, pretrained, and preoptimized models ready for inference, or use your own deep-learning model.
 
-**Bold** and _Italic_ and `Code` text
+![Image of Build](https://software.intel.com/content/dam/develop/public/us/en/images/diagrams-infographics/diagram-openvino-build-16x9.png.rendition.intel.web.416.234.png)
 
-[Link](url) and ![Image](src)
-```
+### 2. Optimize
+Run the trained model through the [Model Optimizer](https://docs.openvinotoolkit.org/latest/openvino_docs_MO_DG_Deep_Learning_Model_Optimizer_DevGuide.html) to convert the model to an Intermediate Representation (IR), which is represented in a pair of files (.xml and .bin). These files describe the network topology and contain the weights and biases binary data of the model.
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+![Image of Optimize](https://software.intel.com/content/dam/develop/public/us/en/images/diagrams-infographics/diagram-openvino-optimize-16x9.png.rendition.intel.web.416.234.png)
 
-### Jekyll Themes
+### 3. Deploy
+Use the [Inference Engine](https://docs.openvinotoolkit.org/latest/openvino_docs_IE_DG_Deep_Learning_Inference_Engine_DevGuide.html) to run inference and output results on multiple processors, accelerators, and environments with a write once, deploy anywhere efficiency.
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/snowballhub/OpenVino/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+![Image of Deploy](https://software.intel.com/content/dam/develop/public/us/en/images/diagrams-infographics/diagram-openvino-deploy-16x9.png.rendition.intel.web.416.234.png)
